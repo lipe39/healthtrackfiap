@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+.cabecalho {
+	width: 100%;
+	height:10%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+.formularioPeso{
+	
+	width: 100%;
+    height: 300px;
+    background-color: rgb(196, 195, 195);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+	
+}
+.lista{
+	width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.cadastrar{
+	display:flex;
+	align-items:center;
+}
+.btn-cadastrar{
+	display:flex;
+	align-items:center;
+}
